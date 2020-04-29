@@ -13,6 +13,7 @@ __pycache__/
 *.pyc
 *.sw[op]
 *.env
+data/yolo/full/trafficsigns.weights
 cfg/config.json
 data/
 tmp/
