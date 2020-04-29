@@ -1,0 +1,11 @@
+cython
+h5py
+keras
+opencv-contrib-python
+opencv-python
+pydub
+pytest
+pytest-cov
+randomcolor
+tensorflow==1.15.2
+werkzeug==0.15.3
