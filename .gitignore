@@ -9,3 +9,14 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+*.pyc
+*.sw[op]
+*.env
+cfg/config.json
+data/
+tmp/
+model.py
+weights.hdf5
+
+build/
