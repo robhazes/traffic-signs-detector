@@ -7,6 +7,7 @@ from detector.exceptions import ValueOutOfBoundsException
 class Classifier:
 
     def __init__(self, model_path, weights_path, labels_path, threshold, skip_classes=[]):
+        print(f'\n\n{model_path}\n\n')
         with open(model_path, 'r') as json_file:
             model_json = json_file.read()
 
