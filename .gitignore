@@ -13,9 +13,10 @@ __pycache__/
 *.pyc
 *.sw[op]
 *.env
+*.weights
 data/yolo/full/trafficsigns.weights
 cfg/config.json
-data/
+#data/
 tmp/
 model.py
 weights.hdf5
