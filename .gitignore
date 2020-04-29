@@ -13,6 +13,7 @@ __pycache__/
 *.pyc
 *.sw[op]
 *.env
+settings.py
 *.weights
 data/yolo/full/trafficsigns.weights
 data/classifier/weights.hdf5

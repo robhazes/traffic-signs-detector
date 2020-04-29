@@ -1,4 +1,12 @@
+import os
+
 from detector.detector import create_detector_from_file
 
+import settings
+
+
 detector = create_detector_from_file('./cfg/config.json')
-detector.detect_video_feed('./data/test/test.mp4', show_output=True, output='output.mp4')
+in_file = settings.IN_FILE
+out_file = settings.OUT_FILE
+print(f'Processing {in_file} into {out_file}')
+detector.detect_video_feed(in_file, show_output=True, output=out_file)
