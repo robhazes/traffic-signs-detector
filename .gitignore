@@ -1,26 +1,4 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+trafficsigns.weights
+output-240p.avi
+Ruta-226-Mar-del-Plata-Balcarce-Tandil-Argentina-240p.mp4
 
-# Unit test / coverage reports
-.cache
-.coverage
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-*.pyc
-*.sw[op]
-*.env
-settings.py
-*.weights
-data/yolo/full/trafficsigns.weights
-data/classifier/weights.hdf5
-cfg/config.json
-data/
-tmp/
-model.py
-weights.hdf5
-
-build/

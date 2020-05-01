@@ -1,0 +1,22 @@
+{
+	"localizer": {
+		"model": "/home/rob/projects/traffic-signs-detector/data/yolo/full/trafficsigns.cfg", 
+		"weights": "/home/rob/projects/traffic-signs-detector/data/yolo/full/trafficsigns.weights",
+		"threshold": 0.24 
+	},
+	"cropper": {
+		"crop_percent": 0.25, 
+		"force_square": true
+	}, 
+	"classifier": {
+		"model": "/home/rob/projects/traffic-signs-detector/data/classifier/trafficsigns.json", 
+		"weights": "/home/rob/projects/traffic-signs-detector/data/classifier/weights.hdf5",
+		"labels": "/home/rob/projects/traffic-signs-detector/data/classifier/classes.txt", 
+		"threshold": 0.9, 
+		"skip_classes": [11, 14, 17, 18, 19] 
+	}, 
+	"detector": {
+		"images_path": "/home/rob/projects/traffic-signs-detector/data/classifier/classes/",
+		"sounds_path": "/home/rob/projects/traffic-signs-detector/data/sounds/" 
+	} 
+}
